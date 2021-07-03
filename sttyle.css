@@ -6,6 +6,10 @@ h1{
 
     font-size: 50px;
 }
+h2{
+
+    font-size: 40px;
+}
 .orange-color{
     color: orange;
 }
@@ -41,7 +45,28 @@ h1{
     background-position: right;
     
 }
+.half{
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    box-shadow:10px 10px 40px ;
+}
 .exp{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#j{
+    border-left: 10px solid #FF8261;
+}
+#f{
+    border-left: 10px solid ;
+    border-image: linear-gradient( blue, cyan) ;
+    border-image-slice: 1;
+}
+footer{
 
-
+    text-align: center;
+    color: rgb(182, 179, 177);
 }
